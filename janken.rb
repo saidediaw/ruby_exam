@@ -34,7 +34,7 @@ class Janken
         puts "You win"
         return false
       else
-        puts "You loose"
+        puts "You lose"
         return false
       end
   end
