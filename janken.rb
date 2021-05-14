@@ -11,13 +11,13 @@ class Player
         elsif player_hand == 2
           return 2
         else
+        end
           puts "Please input numbers between 0-2"
+      player_hand = gets.to_i
           puts "0: Goo, 1: Choki, 2: Par"
-          player_hand == gets.to_i
         end
       end
     end
-end
 class Enemy
   def hand
     enemy_hand = rand(3)
